@@ -79,11 +79,11 @@ Generate the result of a talent audition having 11265 artists with 150 different
 The answer is easy.
 - We need to fill the CSV file with the IDs of every row, the skill that the candidate has, and their name.
 The list can look like this:
-   432443,  Ability to take criticism, Linda Perez
-   543543,  Time Managment, Zembra Carman
-   324345,  Singer, Dorian Grace
-   454354,  Critical Thinking, Linda Perez
-   656878,  Self Confidence, Linda Perez
+   * 432443,  Ability to take criticism, Linda Perez
+   * 543543,  Time Managment, Zembra Carman
+   * 324345,  Singer, Dorian Grace
+   * 454354,  Critical Thinking, Linda Perez
+   * 656878,  Self Confidence, Linda Perez
 - Finally running the program we can have the most skilled artist and what are the skills most used between the artists.
  
  
