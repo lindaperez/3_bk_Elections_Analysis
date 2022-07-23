@@ -1,37 +1,64 @@
-# Overview of Election Audit:
-This analysis is intended to display the election results of a congressional election some counties of the US. 
-Python program to extract (from a CSV file that contained a list of votes per city made to a set of candidates) 
-a set of selection results.
- 
+
+# Election Audit Analysis Project:
+
+Automation of reporting total results from congressional elections including senatorial and local districts. 
+
+
+## Dataset
+
+Tabulated results data source. [Election_Results.csv](https://github.com/lindaperez/elections_analysis/blob/master/Resources/election_results.csv?raw=true)
+
+Voting Methos:
+- Mail-In Ballot: Hand counted in central office.
+- Punch Cards: Machine that tabulates votes totals and send results to central office.
+- Direct Recording Electronic/ DRE couting machine read by a computer.
+
+## Election-Audit questions to answer about the dataset:
+
+- Total number of votes cast. 
+- Total number of votes for each candidate. 
+- The percetage of votes for each candidate. 
+- The winner of the elections based on the popular vote.
+
 ## Election-Audit Results:
  
-- How many votes were cast in this congressional election?
- Total Votes: 369,711
-![image](https://github.com/lindaperez/elections_analysis/blob/master/Resources/total_votes.png)
+- How many votes were cast in the congressional election? Total Votes: 369,711
  
-- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
- County Votes:
+- Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
-![image](https://github.com/lindaperez/elections_analysis/blob/master/Resources/county_votes.png)
+
+    Jefferson     10.5%     38,855
+
+    Devenr        82.8%     386,055
+
+    Arapahoe      6.7%      24,801
  
 - Which county had the largest number of votes?
  
-![image](https://github.com/lindaperez/elections_analysis/blob/master/Resources/largest.png)
+   Denver with  386,055 votes
  
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
  
-![image](https://github.com/lindaperez/elections_analysis/blob/master/Resources/candidate_votes.png)
+   Charles Casper Stockham    23%     85,213
+
+   Diana DeoGette             73.8%   272,892
+   
+   Raymon Anthony Doane       3.1%    11,606
  
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
- 
-![image](https://github.com/lindaperez/elections_analysis/blob/master/Resources/winners.png)
+
+   Winner: Diana DeGetter 
+   
+   Vote Count: 272,892
+   
+   Percentage: 73.8%
  
 ## Election-Audit Summary:
  
  
 This solution can be used in infinite situations, we could change the CSV file for a different file with the same
 type of data (int, string, string) and do the same calculation with different valid results. We can add more rows
-and transform the CSV to a bigger file, making the results even more required.
+and transform the CSV to a bigger file.
  
  
 ![image](https://github.com/lindaperez/elections_analysis/blob/master/Resources/totals.png)
