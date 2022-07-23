@@ -22,9 +22,9 @@ Voting Methos:
 
 ## Election-Audit Results:
  
-- How many votes were cast in the congressional election? Total Votes: 369,711
+ How many votes were cast in the congressional election? Total Votes: 369,711
  
-- Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+ Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
 
     Jefferson     10.5%     38,855
@@ -33,25 +33,28 @@ Voting Methos:
 
     Arapahoe      6.7%      24,801
  
-- Which county had the largest number of votes?
  
-   Denver with  386,055 votes
+ Which county had the largest number of votes?
  
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+    Denver with  386,055 votes
  
-   Charles Casper Stockham    23%     85,213
+ Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+ 
+   
+    Charles Casper Stockham    23%     85,213
 
-   Diana DeoGette             73.8%   272,892
+    Diana DeoGette             73.8%   272,892
    
-   Raymon Anthony Doane       3.1%    11,606
+    Raymon Anthony Doane       3.1%    11,606
  
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+ Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
-   Winner: Diana DeGetter 
    
-   Vote Count: 272,892
+    Winner: Diana DeGetter 
    
-   Percentage: 73.8%
+    Vote Count: 272,892
+   
+    Percentage: 73.8%
  
 ## Election-Audit Summary:
  
